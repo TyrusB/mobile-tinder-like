@@ -15,6 +15,7 @@ $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
 
+$stable: orange;
 
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
@@ -22,4 +23,18 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
+.tabs-stable {
+  & h1 {
+    color: white;
+  }
+}
 
+.bar-stable.bar {
+  & .title {
+    color: white;
+  }
+}
+
+.button-right {
+  float: right;
+}
